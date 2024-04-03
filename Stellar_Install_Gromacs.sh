@@ -16,7 +16,9 @@ cd gromacs-${version}
 mkdir build && cd build
 
 module purge
-module load openmpi/gcc/4.1.0
+module load gcc-toolset/12
+module load openmpi/gcc/4.1.2
+module load cudatoolkit/12.2
 
 OPTFLAGS="-O3 -DNDEBUG"
 
