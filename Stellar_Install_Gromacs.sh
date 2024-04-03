@@ -17,7 +17,7 @@ mkdir build && cd build
 
 module purge
 module load gcc-toolset/12
-module load openmpi/gcc/4.1.2
+module load openmpi/gcc/13.2.0
 module load cudatoolkit/12.2
 
 OPTFLAGS="-O3 -DNDEBUG"
