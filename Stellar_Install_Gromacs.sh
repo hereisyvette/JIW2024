@@ -16,7 +16,7 @@ cd gromacs-${version}
 mkdir build && cd build
 
 module purge
-module load openmpi/gcc/13.2.0
+module load openmpi/gcc/9.1.0
 
 OPTFLAGS="-O3 -DNDEBUG"
 
