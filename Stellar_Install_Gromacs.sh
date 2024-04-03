@@ -16,6 +16,8 @@ cd gromacs-${version}
 mkdir build && cd build
 
 module purge
+module load gcc-toolset/12
+module load intel-mkl/2022.2.0
 module load openmpi/gcc/4.1.2
 
 OPTFLAGS="-O3 -DNDEBUG"
